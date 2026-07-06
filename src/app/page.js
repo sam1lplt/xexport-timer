@@ -257,13 +257,13 @@ export default function Home() {
             href="https://themedya.com"
             target="_blank"
             rel="noopener noreferrer"
-            className="flex items-center gap-1.5"
+            className="flex flex-col items-center gap-2"
           >
             <span>DIGITAL TAILORING BY</span>
             <img
               src="/themedya.png"
               alt="The Medya"
-              className="h-5 sm:h-6 w-auto object-contain opacity-40 hover:opacity-100 transition-opacity duration-300"
+              className="h-20 sm:h-24 w-auto object-contain opacity-40 hover:opacity-100 transition-opacity duration-300"
             />
           </a>
         </footer>
