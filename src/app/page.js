@@ -250,6 +250,23 @@ export default function Home() {
             </motion.div>
           </motion.div>
         </main>
+
+        {/* Footer watermark */}
+        <footer className="absolute bottom-6 left-1/2 -translate-x-1/2 z-10 w-max text-[9px] sm:text-[10px] tracking-[0.25em] font-light text-white/30 hover:text-white/60 transition-all duration-300 font-sans">
+          <a
+            href="https://themedya.com"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="flex items-center gap-1.5"
+          >
+            <span>DIGITAL TAILORING BY</span>
+            <img
+              src="/themedya.png"
+              alt="The Medya"
+              className="h-2.5 sm:h-3 w-auto object-contain opacity-40 hover:opacity-100 transition-opacity duration-300"
+            />
+          </a>
+        </footer>
       </div>
     </>
   );
