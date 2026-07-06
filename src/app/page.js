@@ -121,7 +121,7 @@ export default function Home() {
               <motion.img
                 src="/logo.png"
                 alt="Loading..."
-                className="w-16 h-16 object-contain"
+                className="w-24 h-24 sm:w-28 sm:h-28 object-contain"
                 animate={{
                   scale: [1, 1.08, 1],
                   opacity: [0.8, 1, 0.8],
@@ -245,7 +245,7 @@ export default function Home() {
               <img
                 src="/logo.png"
                 alt="XEXPORT Logo"
-                className="w-10 h-10 sm:w-12 sm:h-12 object-contain"
+                className="w-16 h-16 sm:w-20 sm:h-20 object-contain"
               />
             </motion.div>
           </motion.div>
@@ -263,7 +263,7 @@ export default function Home() {
             <img
               src="/themedya.png"
               alt="The Medya"
-              className="h-2.5 sm:h-3 w-auto object-contain opacity-40 hover:opacity-100 transition-opacity duration-300"
+              className="h-5 sm:h-6 w-auto object-contain opacity-40 hover:opacity-100 transition-opacity duration-300"
             />
           </a>
         </footer>
